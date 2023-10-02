@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getPosts } from "/Users/mariapaula/Documents/MasterThreePoints/Modulo-FrontEnd-Frameworks/clase2-reactjs/ejercicio2-react/services/posts-service.js";
+import { getPosts } from "/services/posts-service.js";
 import Post from "./post";
 
 function PostList({ post, search, profile, showProfile }) {
