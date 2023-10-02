@@ -1,0 +1,40 @@
+* {
+  box-sizing: inherit;
+}
+
+.navbar-brand {
+  flex-direction: row;
+  display: contents;
+  font-size: 28px;
+  background-color: black;
+}
+
+.form-control {
+  width: 1200px;
+  border: none;
+}
+
+.bi bi-person-circle {
+  display: flex;
+  margin: 100px;
+}
+
+.btn {
+  float: right;
+  margin: 2rem 0.1rem;
+}
+
+.card:hover .card-body {
+  transform: scale(1); /* Ajusta el valor según lo desees */
+  border: rgb(60, 218, 183) solid 1px;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1); /* Ajusta el valor según lo desees */
+  opacity: 0.8; /* Ajusta la opacidad según lo desees */
+  filter: hue-rotate(80%);
+}
+
+.profile {
+  width: 250px;
+}

@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "image": "https://api.slingacademy.com/public/sample-photos/30.jpeg",
+      "createdAt": "7-09-2023",
+      "autor": "@paul",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ante sodales augue vestibulum gravida.",
+      "comments": "Comments (27)"
+    },
+    {
+      "image": "https://api.slingacademy.com/public/sample-photos/31.jpeg",
+      "createdAt": "5-09-2023",
+      "autor": "@diego",
+      "text": "Quisque quis sem euismod, vulputate augue id, feugiat metus. Nam faucibus pulvinar bibendum.",
+      "comments": "Comments (15)"
+    },
+    {
+      "image": "https://api.slingacademy.com/public/sample-photos/32.jpeg",
+      "createdAt": "3-09-2023",
+      "autor": "@stephanie",
+      "text": "Nam dictum dui ac mollis ultrices. Pellentesque eu cursus augue. Nam faucibus pulvinar bibendum.",
+      "comments": "Comments (10)"
+    },
+    {
+      "image": "https://api.slingacademy.com/public/sample-photos/33.jpeg",
+      "createdAt": "2-09-2023",
+      "autor": "@jacqueline",
+      "text": "Sed et posuere neque. Aliquam dictum lectus sit amet purus condimentum, ut elementum sapien mattis.",
+      "comments": "Comments (16)"
+    },
+    {
+      "image": "https://api.slingacademy.com/public/sample-photos/34.jpeg",
+      "createdAt": "28-08-2023",
+      "autor": "@jack",
+      "text": "Curabitur tristique tortor vel pharetra tempor. Donec ultrices massa vitae purus euismod maximus. Pellentesque laoreet libero a erat congue, id porta odio vestibulum.",
+      "comments": "Comments (20)"
+    },
+    {
+      "image": "https://api.slingacademy.com/public/sample-photos/35.jpeg",
+      "createdAt": "25-08-2023",
+      "autor": "@boots",
+      "text": "Curabitur sodales tortor et rhoncus aliquam. Nunc finibus est sapien, vel vulputate tellus tincidunt non. Nullam fermentum tortor laoreet tincidunt semper.",
+      "comments": "Comments (41)"
+    }
+  ]
+}
