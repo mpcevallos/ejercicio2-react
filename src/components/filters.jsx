@@ -1,11 +1,9 @@
 import { useState } from "react";
 
-function Filters({ search, searchPost }) {
+function Filters({ search, setSearch }) {
  const handleSearchChange = (event) => {
-  const searchText = event.target.value;
-  console.log(searchText); // Imprime el valor del input de búsqueda
-  searchPost(searchText);
-};
+    setSearch(event.target.value);
+  };
 
   return (
     <div className="container-fluid mt-4">

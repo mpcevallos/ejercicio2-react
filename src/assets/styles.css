@@ -2,6 +2,10 @@
   box-sizing: inherit;
 }
 
+a {
+  cursor: pointer;
+}
+
 .navbar-brand {
   flex-direction: row;
   display: contents;

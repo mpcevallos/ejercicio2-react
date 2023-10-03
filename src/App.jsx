@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import NavBar from "./components/navBar.jsx";
 import PostList from "./components/postList";
 import Filters from "./components/filters";
@@ -9,17 +9,16 @@ function App() {
   const [search, setSearch] = useState("");
   const [showProfile, setShowProfile] = useState(false);
 
+//  const handleSearchChange = (event) => {
+//     setSearch(event.target.value);
+//   };
+
   const handlePostListClick = () => {
     setShowProfile(false);
   };
 
   const handleProfileClick = () => {
     setShowProfile(true);
-  };
-
-  const searchPost = (event) => {
-    const searchText = event.target.value;
-    setSearch(searchText);
   };
 
   return (
@@ -37,7 +36,7 @@ function App() {
           handlePostListClick={handlePostListClick}
           handleProfileClick={handleProfileClick}
         />
-        <Filters search={search} searchPost={searchPost} />
+        <Filters search={search} setSearch={setSearch} />
         {showProfile ? <Profile /> : <PostList search={search} />}
       </div>
     </>
